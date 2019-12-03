@@ -1,0 +1,139 @@
+<html>
+		<head>
+			<title></title>
+		</head>
+	
+<body>
+	<?php
+	//contoh variabel
+	$nama="micin";
+	$usia="57";
+	$a=$b;		
+
+		$a = 20;
+		$b = 10;
+
+		echo $a+$b;
+		echo "<br>";
+		echo $a-$b;
+		echo "<br>";
+		echo $b-$a;
+		echo "<br>";
+		echo $a*$b;
+		echo "<br>";
+		echo $a/$b;
+		echo "<br>";
+		echo $a%$b;
+		 $x  = 30;
+		 $x += 40;
+		echo $x;
+		$a = 20;
+		$b = 10;
+		var_dump($a === $b);
+		var_dump($a != $b);
+		var_dump($a < $b);
+		var_dump($a > $b);
+		echo $a++;
+		echo "<br>";
+		echo ++$a;
+		echo "<br>";
+		echo $b++;
+		echo "<br>";
+		echo ++$b;
+		if ($a == 10 || $b==8) {
+		echo "racun"; }
+		$a  = "aku benci";
+		$b  = "bambank";
+		$a .= $b;
+		echo $a;
+
+		$string	   = "Budi";
+		$string2   = 'Dhika';
+		$integer   = 123;
+		$integer2  = 0123;
+		$float     = 3.14;
+		$bool      = true;
+		$arr       = array("volvo","BMW","toyota");
+		$null      = null;
+
+
+		echo $string;
+		echo "<br>";
+		echo $string2;
+		echo "<br>";
+		echo $integer;
+		echo "<br>";
+		echo $integer2;
+		echo "<br>";
+		echo $float;
+		echo "<br>";
+		echo $bool;
+		echo "<br>";
+		echo $arr;
+		echo "<br>";
+		echo $null;
+		echo $integer2
+		
+		echo strlen("Assalamu 'alaikum!");
+		echo "<br>";
+		echo strlen("apaan cobak!");
+		echo "<br>";
+		echo strlen("halo ada orang?");
+		echo "<br>";
+		echo strlen("Tadashi Hamada");
+		echo "<br>";
+		echo strlen("You Can Count On me!");
+		echo "<br>";
+
+
+
+		echo str_word_count("Selamat Siang mbah!");
+		echo "<br>";
+		echo str_word_count("Selamat Hari raya");
+		echo "<br>";
+		echo str_word_count("Nenek Pusing!");
+		echo "<br>";
+		echo str_word_count("Pergi Kau bambank!");
+		echo "<br>";
+		echo str_word_count("Lost Control!");
+		echo "<br>";
+
+
+		echo strrev("Kokoro No Tomoto!");
+		echo "<br>";
+		echo strrev("Kasurku Rusak!");
+		echo "<br>";
+		echo strrev("Behel Gigi Copot!");
+		echo "<br>";
+		echo strrev("Makan apa zheyenk?");
+		echo "<br>";
+		echo strrev("Pak Ogah Wegah ya?");
+		echo "<br>";
+
+
+		echo strpos("Kelinci Pakdhe","Pakdhe");
+		echo "<br>";
+		echo strpos("Makan Harta","Harta");
+		echo "<br>";
+		echo strpos("Mbah Dukun Nikah","Dukun");
+		echo "<br>";
+		echo strpos("paan sih?","sih?");
+		echo "<br>";
+		echo strpos("Makan daging ikan patin","ikan");
+		echo "<br>";
+
+
+		echo str_replace("permen","micin","ngemil permen??");
+		echo "<br>";
+		echo str_replace("kodok","kamu","cium kodok");
+		echo "<br>";
+		echo str_replace("kaki","nenek","gelang kaki");
+		echo "<br>";
+		echo str_replace("kill","Kiss","she kill you");
+		echo "<br>";
+		echo str_replace("without","with","thinking you could live without me??");
+		echo "<br>";
+
+	?>
+</body>
+	</html>
